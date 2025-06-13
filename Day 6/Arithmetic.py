@@ -1,5 +1,5 @@
 
-def arithmetic(arithmetic,a,b,):
+def arithmetic(arithmetic,a,b):
     if arithmetic == '+':
         print("Addition is ",a+b)
     elif arithmetic == '-':
