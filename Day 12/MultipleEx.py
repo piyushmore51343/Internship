@@ -6,15 +6,15 @@ try:
     file_n = open(file,"r")
     print(f"Divison is {c}")
 
-# except ZeroDivisionError:
-#      print("Number cannot divide by 0")
+except ZeroDivisionError:
+     print("Number cannot divide by 0")
     
-# except FileNotFoundError:
+except FileNotFoundError:
+    print("File Not Found")
+
+
+# except (ZeroDivisionError , FileNotFoundError) :
+
+#     print("Number cannot divide by 100")
 #     print("File Not Found")
-
-
-except (ZeroDivisionError , FileNotFoundError) :
-
-    print("Number cannot divide by 100",ZeroDivisionError)
-    print("File Not Found",FileNotFoundError)
 

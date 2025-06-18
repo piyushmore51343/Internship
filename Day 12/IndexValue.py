@@ -8,3 +8,4 @@ except (IndexError , ValueError) as e :
     print(e)
     # print("Index Value cannot found")
     # print("Wrong input")
+    

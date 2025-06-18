@@ -7,3 +7,4 @@ except ZeroDivisionError as e:
 finally:
     lock = False
     print("Lock released")
+    
